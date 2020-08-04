@@ -7,7 +7,7 @@ import pickle
 import zlib
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-client_socket.connect(('192.168.56.1', 8888))
+client_socket.connect(('18.183.93.161', 8888))
 connection = client_socket.makefile('wb')
 HEADER = 1024
 FORMAT = 'utf-8'
